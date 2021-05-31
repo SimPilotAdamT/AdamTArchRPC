@@ -7,8 +7,8 @@ client.on('ready', () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity: {
-            details: "Linux 5.12.8-arch1-1",
-            state: "1779 packages installed",
+            details: "Kernel: Linux 5.12.8-arch1-1",
+            state: "WM: XMonad",
             timestamps: {
                 start: Date.now()
             },
@@ -19,8 +19,8 @@ client.on('ready', () => {
 		//small_test: "Xmonad"
             },
             buttons: [
-                //{ label: "Learn more about GNU/Linux", url: "https://en.wikipedia.org/wiki/Linux" },
-                { label: "Learn more about Arch Linux", url: "https://archlinux.org/" }
+                {label: "Learn more about Arch Linux", url: "https://archlinux.org/"},
+		{label: "Learn more about XMonad", url: "https://xmonad.org/"}
             ]
         }
     });
