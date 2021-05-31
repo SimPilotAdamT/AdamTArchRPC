@@ -1,0 +1,22 @@
+{
+  "name": "adamtarchrpc",
+  "version": "0.0.1",
+  "description": "A customised Discord Rich Presence for Arch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimPilotAdamT/AdamTArchRPC.git"
+  },
+  "author": "SimPilotAdamT",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SimPilotAdamT/AdamTArchRPC/issues"
+  },
+  "homepage": "https://github.com/SimPilotAdamT/AdamTArchRPC#readme",
+  "dependencies": {
+    "discord-rpc": "^3.2.0"
+  }
+}
